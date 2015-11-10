@@ -13,6 +13,7 @@
 		C6CF8CB11BF13B5C00FEA6D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CF8CB01BF13B5C00FEA6D2 /* Assets.xcassets */; };
 		C6CF8CB41BF13B5C00FEA6D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CF8CB21BF13B5C00FEA6D2 /* LaunchScreen.storyboard */; };
 		C6CF8CBD1BF13C8800FEA6D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF8CBC1BF13C8800FEA6D2 /* User.swift */; };
+		C6CF8CC01BF1728100FEA6D2 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF8CBF1BF1728100FEA6D2 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C6CF8CB31BF13B5C00FEA6D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6CF8CB51BF13B5C00FEA6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6CF8CBC1BF13C8800FEA6D2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C6CF8CBF1BF1728100FEA6D2 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C6CF8CA81BF13B5C00FEA6D2 /* ExemploParseJSON */ = {
 			isa = PBXGroup;
 			children = (
+				C6CF8CBE1BF1726F00FEA6D2 /* Repo */,
 				C6CF8CBB1BF13C8000FEA6D2 /* User */,
 				C6CF8CA91BF13B5C00FEA6D2 /* AppDelegate.swift */,
 				C6CF8CAB1BF13B5C00FEA6D2 /* ViewController.swift */,
@@ -73,6 +76,14 @@
 				C6CF8CBC1BF13C8800FEA6D2 /* User.swift */,
 			);
 			name = User;
+			sourceTree = "<group>";
+		};
+		C6CF8CBE1BF1726F00FEA6D2 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF8CBF1BF1728100FEA6D2 /* Repository.swift */,
+			);
+			name = Repo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 				C6CF8CAC1BF13B5C00FEA6D2 /* ViewController.swift in Sources */,
 				C6CF8CAA1BF13B5C00FEA6D2 /* AppDelegate.swift in Sources */,
 				C6CF8CBD1BF13C8800FEA6D2 /* User.swift in Sources */,
+				C6CF8CC01BF1728100FEA6D2 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
